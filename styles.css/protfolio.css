@@ -1,4 +1,6 @@
-/* common shared styles */
+
+/* common shared styles */ 
+
 body{
   font-family:'lato';sans-serif;
   font-family: 'Open Sans', sans-serif;
@@ -91,6 +93,10 @@ nav a{
   margin-top: 5px;
 }
 /* main section styles */
+main{
+  max-width: 1140px;
+  margin: 0 auto; 
+}
 
 
 /* about section styles */
@@ -101,4 +107,11 @@ background: #FFF8F3;
 margin: 130px;
 }
 
+.about-info-container{
+  display: flex;
+  justify-content: space-around;
+}
+.about-inf{
+  text-align: center;
+}
 
