@@ -4,6 +4,17 @@ body{
   font-family: 'Open Sans', sans-serif;
 
 }
+.section-title{
+  color: #181818;
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+}
+.section-description{
+color:  #757575;
+text-align: center;
+font-size: 18px;
+}
 .text-prymari{
   color: #FD6E0A;
 }
@@ -51,15 +62,43 @@ nav a{
 /* header related */
 .header{
   background-color: #fff8f3;
+  background-image: url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 .banner{
   padding: 30px 30px 30px 150px ;
   display: flex;
   align-items: center;
+  justify-content:space-between ;
 
 }
 .banner img{
+  padding:  0px;
   width: px;
   height: 400px; px;
 
 }
+.banner-greeting{
+  font size: 45px;
+  color: #474747;
+   margin-bootom:0px;
+  
+}
+.banner title{
+  font-size:normal;
+  font-weight: 700;
+  margin-top: 5px;
+}
+/* main section styles */
+
+
+/* about section styles */
+.about{
+  padding: 130px;
+  border-radius: 10px;
+background: #FFF8F3;
+margin: 130px;
+}
+
+
