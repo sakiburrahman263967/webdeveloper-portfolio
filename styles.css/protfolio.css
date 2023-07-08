@@ -160,7 +160,10 @@ main section {
 .resume-column-title {
   color: #474747;
   font-size: 30px;
-  font-weight: 700;
+    font-weight: 700;
+  }
 
 
-}
+  #sakib{
+    display: flex;
+  }
